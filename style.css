@@ -1,0 +1,30 @@
+@import url(Styles/header.css);
+@import url(Styles/banner.css);
+@import url(Styles/carrossel.css);
+@import url(Styles/topicos.css);
+@import url(Styles/contato.css);
+@import url(Styles/footer.css);
+/*Importando o
+Styles de outro lugar, objetivo: melhor
+vizualização e organização do projeto 
+e também economizar linha*/
+
+
+:root{
+    --cor-fundo: #EBECEE;
+    --branco: #F8F8FF;
+    --cinza-claro: #8d8d8d;
+    --preto: #0f0f0fe0;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --cor-titulo: #002F52;
+    --cor-destaque: #EB9800;
+    --font-principal: "Poppins";
+    --font-secundaria: "Josefin Sans";
+}
+
+body{
+    background-color: var(--cor-fundo);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
